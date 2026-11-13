@@ -12,9 +12,9 @@ El objetivo de esta práctica abarca desde el procesamiento de vídeo para la de
 
 * **Vídeo Final:**
 
-https://github.com/user-attachments/assets/9e4a6d83-532b-4ec7-90a9-b524e537e58f
+Como se puede https://github.com/user-attachments/assets/9e4a6d83-532b-4ec7-90a9-b524e537e58f
 
-Como se puede ver en el vídeo, la técnica basada en contornos resulta ser un método que comete más errores en comparación con el modelo de RT-DETR. Esto ocurre porque los algoritmos clásicos no entienden el contexto de lo que están viendo; se limitan exclusivamente a buscar contrastes de píxeles que formen polígonos de 4 lados con proporciones de rectángulo. Debido a esto, el sistema de contornos genera una alta tasa de falsos positivos, confundiendo frecuentemente faros traseros, rejillas de los vehículos o los parabrisas. Por el contrario, RT-DETR extrae características semánticas profundas, logrando identificar de forma más precisa la matrícula real independientemente de las condiciones de luz, el ángulo o la resolución.
+ver en el vídeo, la técnica basada en contornos resulta ser un método que comete más errores en comparación con el modelo de RT-DETR. Esto ocurre porque los algoritmos clásicos no entienden el contexto de lo que están viendo; se limitan exclusivamente a buscar contrastes de píxeles que formen polígonos de 4 lados con proporciones de rectángulo. Debido a esto, el sistema de contornos genera una alta tasa de falsos positivos, confundiendo frecuentemente faros traseros, rejillas de los vehículos o los parabrisas. Por el contrario, RT-DETR extrae características semánticas profundas, logrando identificar de forma más precisa la matrícula real independientemente de las condiciones de luz, el ángulo o la resolución.
 
 Para llevar el registro del total de vehículos y personas que aparecen en el vídeo, el sistema se apoya directamente en la memoria del algoritmo de seguimiento. Se ha implementado una estructura de datos de tipo conjunto que almacena los identificadores únicos asignados a cada objeto. De esta forma, aunque la red neuronal detecte el mismo coche durante cientos de fotogramas, su ID se registra únicamente la primera vez que entra en escena.Garantizando un conteo acumulativo exacto, evitando que un mismo objeto sea sumado múltiples veces.
 
