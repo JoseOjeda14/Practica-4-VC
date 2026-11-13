@@ -127,7 +127,12 @@ El trabajo se divide en dos tareas: evaluar ambos modelos sobre los mismos recor
 
 ### Archivos y resultados
 
-- Vídeo final con lectura de matrículas (https://drive.google.com/file/d/1ER0DJJZit2SnG0PboLaL9HDeef3-shPu/view?usp=sharing).
+- Vídeo final con lectura de matrículas. Enlace para descargarlo con una mayor calidad: (https://drive.google.com/file/d/1ER0DJJZit2SnG0PboLaL9HDeef3-shPu/view?usp=sharing).
+
+
+
+https://github.com/user-attachments/assets/44fc61d1-6475-4983-b8f7-90f9cd88ae85
+
 
 
 ### Modelos utilizados
